@@ -59,7 +59,7 @@
 &kp ESCAPE  &kp Q           &kp W           &kp E             &kp R                &kp T                               &kp UP                &kp Y        &kp U                &kp I              &kp O            &kp P               &kp BACKSLASH
 &kp TAB     &mt LEFT_GUI A  &mt LEFT_ALT S  &mt LEFT_SHIFT D  &mt RIGHT_CONTROL D  &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &mt RIGHT_CONTROL J  &mt RIGHT_SHIFT K  &mt RIGHT_ALT L  &mt RIGHT_WIN SEMI  &kp SQT
 &kp LCTRL   &kp Z           &kp X           &kp C             &kp V                &kp B        &kp SPACE              &kp DOWN              &kp N        &kp M                &kp COMMA          &kp DOT          &kp FSLH            &kp GRAVE
-                                            &kp LEFT_ALT      &mo 1                &lt 4 ENTER                                               &lt 2 SPACE  &kp SPACE            &kp BACKSPACE
+                                            &kp LEFT_ALT      &mo 1                &lt 4 ENTER                                               &lt 2 SPACE  &kp BACKSPACE        &kp BACKSPACE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -90,7 +90,7 @@
         };
 
         layer_3 {
-            display-name = "Fn";
+            display-name = "Func";
             bindings = <
 &studio_unlock  &kp F1      &kp F2     &kp F3       &kp F4     &kp F5                                  &mmv MOVE_UP                     &kp F6       &kp F7     &kp F8       &kp F9      &kp F10          &kp F11
 &trans          &trans      &mkp LCLK  &mkp MCLK    &mkp RCLK  &mkp MB4                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader  &mkp LCLK  &mkp MCLK    &mkp RCLK   &kp PRINTSCREEN  &kp F12
@@ -101,7 +101,7 @@
             sensor-bindings = <&scroll_encoder>;
         };
 
-        layer_4 {
+        arrows {
             bindings = <
 &trans  &trans        &trans        &trans      &trans            &trans                    &trans          &kp PAGE_UP    &kp HOME  &kp UP    &kp END    &trans  &trans
 &trans  &kp LEFT_WIN  &kp LEFT_ALT  &kp LSHIFT  &kp LEFT_CONTROL  &trans            &trans  &trans  &trans  &kp PAGE_DOWN  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans

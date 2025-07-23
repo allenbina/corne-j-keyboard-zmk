@@ -45,9 +45,9 @@ layers:
   - {t: '`', s: '~'}
   - $$mdi:apple-keyboard-option$$
   - NUMBER
-  - {t: '$$mdi:keyboard-return$$', h: '4'}
+  - {t: '$$mdi:keyboard-return$$', h: arrows}
   - {t: '$$mdi:keyboard-space$$', h: SYMBOL}
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:backspace$$', type: backspace}
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -147,7 +147,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  Fn:
+  Func:
   - '&studio_unlock'
   - F1
   - F2
@@ -196,7 +196,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  '4':
+  arrows:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}

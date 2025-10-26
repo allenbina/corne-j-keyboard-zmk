@@ -48,7 +48,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: arrows}
   - {t: '$$mdi:keyboard-space$$', h: SYMBOL}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: B, h: NUMBER}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: NUMBER}
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
@@ -294,3 +294,6 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+combos:
+- p: [0, 1]
+  k: {t: '`', s: '~'}

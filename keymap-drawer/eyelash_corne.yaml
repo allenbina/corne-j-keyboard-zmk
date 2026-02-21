@@ -43,7 +43,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: '`', s: '~'}
-  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-option$$
   - arrows
   - {t: '$$mdi:keyboard-return$$', h: '5'}
   - {t: '$$mdi:keyboard-space$$', h: SYMBOL}

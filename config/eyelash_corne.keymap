@@ -115,6 +115,21 @@
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <36 37>;
         };
+
+        tildecombo {
+            bindings = <&kp TILDE>;
+            key-positions = <14 13>;
+        };
+
+        combopipe {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <26 27>;
+        };
+
+        comboplusequals {
+            bindings = <&kp EQUAL>;
+            key-positions = <11 12>;
+        };
     };
 
     keymap {

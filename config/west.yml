@@ -9,7 +9,7 @@ manifest:
   projects:
     - name: eyelash_corne
       url: https://github.com/a741725193/zmk-new_corne
-      revision: main
+      revision: a7d93082  # pinned before Dev1 board→shield breaking change (2026-06-05)
     - name: zmk
       remote: zmkfirmware
       # revision: main

@@ -130,6 +130,16 @@
             bindings = <&kp EQUAL>;
             key-positions = <11 12>;
         };
+
+        leftshiftbrace {
+            bindings = <&kp LS(LEFT_BRACE)>;
+            key-positions = <32 33>;
+        };
+
+        rightshiftbrace {
+            bindings = <&kp RS(RIGHT_BRACE)>;
+            key-positions = <36 37>;
+        };
     };
 
     keymap {

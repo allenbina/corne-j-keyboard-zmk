@@ -29,7 +29,7 @@ layers:
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
   - {t: ;, h: RIGHT WIN, s: ':'}
   - {t: '''', s: '"'}
-  - '&SHIFTCAPS'
+  - $$mdi:apple-keyboard-control$$
   - Z
   - X
   - C

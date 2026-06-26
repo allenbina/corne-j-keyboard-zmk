@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
   QWERTY:
-  - $$mdi:keyboard-esc$$
+  - {t: '$$mdi:keyboard-esc$$', s: '~'}
   - Q
   - W
   - E
@@ -47,7 +47,7 @@ layers:
   - arrows
   - {t: '$$mdi:keyboard-return$$', h: '5'}
   - {t: '$$mdi:keyboard-space$$', h: SYMBOL}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$'}
   - {t: '$$mdi:backspace-reverse-outline$$', h: NUMBER}
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -364,6 +364,10 @@ combos:
   k: {t: \, s: '|'}
 - p: [11, 12]
   k: {t: '=', s: +}
+- p: [0, 42]
+  k: Alt+$$mdi:keyboard-tab$$
+- p: [44, 45]
+  k: $$mdi:alpha-w-box$$
 - p: [32, 33]
   k: Sft+{
 - p: [36, 37]

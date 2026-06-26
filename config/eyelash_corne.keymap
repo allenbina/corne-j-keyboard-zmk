@@ -68,6 +68,7 @@
             label = "BACKSPACE_DELETE";
             #binding-cells = <0>;
             bindings = <&kp BACKSPACE>, <&kp DELETE>;
+
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
@@ -76,6 +77,7 @@
             label = "ESCAPE_TILDE";
             #binding-cells = <0>;
             bindings = <&kp ESCAPE>, <&kp TILDE>;
+
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
     };
@@ -233,10 +235,10 @@
 
         arrows {
             bindings = <
-&trans  &trans        &trans        &trans      &trans            &trans                    &trans          &kp PAGE_UP    &kp HOME    &kp UP            &kp END            &kp PG_UP      &trans
-&trans  &kp LEFT_WIN  &kp LEFT_ALT  &kp LSHIFT  &kp LEFT_CONTROL  &trans            &trans  &trans  &trans  &kp PAGE_DOWN  &kp LEFT    &kp DOWN          &kp RIGHT          &kp PAGE_DOWN  &trans
-&trans  &trans        &trans        &trans      &trans            &trans  &trans            &trans          &trans         &trans      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans         &trans
-                                    &trans      &trans            &trans                                    &trans         &kp DELETE  &trans
+&kp TILDE  &trans        &trans        &trans      &trans            &trans                    &trans          &kp PAGE_UP    &kp HOME    &kp UP            &kp END            &kp PG_UP      &trans
+&trans     &kp LEFT_WIN  &kp LEFT_ALT  &kp LSHIFT  &kp LEFT_CONTROL  &trans            &trans  &trans  &trans  &kp PAGE_DOWN  &kp LEFT    &kp DOWN          &kp RIGHT          &kp PAGE_DOWN  &trans
+&trans     &trans        &trans        &trans      &trans            &trans  &trans            &trans          &trans         &trans      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans         &trans
+                                       &trans      &trans            &trans                                    &trans         &kp DELETE  &trans
             >;
         };
 

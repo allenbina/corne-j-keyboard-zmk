@@ -307,7 +307,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - '*'
-  - PRINTSCREEN
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}

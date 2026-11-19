@@ -107,7 +107,7 @@
 
         lparen {
             bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <4 3>;
+            key-positions = <3 2>;
             require-prior-idle-ms = <150>;
         };
 
@@ -125,7 +125,7 @@
 
         rparen {
             bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <8 9>;
+            key-positions = <9 10>;
             require-prior-idle-ms = <150>;
         };
 
@@ -148,7 +148,7 @@
         };
 
         combopipe {
-            bindings = <&kp BACKSLASH>;
+            bindings = <&kp PIPE>;
             key-positions = <26 27>;
             require-prior-idle-ms = <150>;
         };
@@ -157,11 +157,6 @@
             bindings = <&kp EQUAL>;
             key-positions = <11 12>;
             require-prior-idle-ms = <150>;
-        };
-
-        alt_tab {
-            bindings = <&kp LA(TAB)>;
-            key-positions = <0 42>;
         };
 
         caps_word_combo {
@@ -184,6 +179,11 @@
         printscree {
             bindings = <&kp PRINTSCREEN>;
             key-positions = <43 46>;
+        };
+
+        bottom-right-two {
+            bindings = <&kp NON_US_BACKSLASH>;
+            key-positions = <40 41>;
         };
     };
 
